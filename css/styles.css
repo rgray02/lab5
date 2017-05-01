@@ -58,13 +58,16 @@ tr {
 tr:nth-child(2n){
 	background-color: #eeedd1
 }
+tr:nth-child(2){
+	border-top: 1px solid#CACACA;
+}
 span {
 	font-style: italic;
 	font-weight: 200;
 }
 table {
 	border-collapse:collapse;
-	border-bottom: 1px solid #eedd1
+	border-bottom: 1px solid#CACACA;
 }
 h1{
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif"
