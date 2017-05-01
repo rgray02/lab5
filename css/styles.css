@@ -1,24 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 ul {
 	list-style-type: none;
-	background-color: aquamarine;
+    align-content: center;
 	
+ 	
 }
-
 li {
-	
 	float: left;
 }
-
 
 a:link {
 	display: black;
 	padding: 14px 16px;
 	text-decoration: none;
-	color: red;
-	background-color: yellow;
+	color: black;
+	background-color: 
 	
 }
 
@@ -36,4 +35,42 @@ a:active {
 	
 	color: green;
 	
+}
+
+td{
+	padding: 4px 30px;
+	border-left: 1px solid#CACACA;
+	border-right: 1px solid#CACACA;
+}
+
+th {
+	text-align: left;
+	padding: 0 20px;
+	
+}
+
+tr {
+	border-left: 1px solid #eedd1;
+	vertical-align: bottom;
+	
+}
+
+tr:nth-child(2n){
+	background-color: #eeedd1
+}
+span {
+	font-style: italic;
+	font-weight: 200;
+}
+table {
+	border-collapse:collapse;
+	border-bottom: 1px solid #eedd1
+}
+h1{
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif"
+	
+}
+
+h2{
+	font-family: Helvetica Neue," sans-serif"
 }
