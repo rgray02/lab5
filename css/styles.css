@@ -78,6 +78,7 @@ h1{
 
 h2{
 	font-family: 'Muli', sans-serif;
+	text-align: center;
 }
 legend {
 	color: rosybrown;
@@ -86,7 +87,8 @@ legend {
 	
 }
 fieldset {
-	
+	border: thin;
 	background-color: beige;
+	font-family: 'Josefin Sans', sans-serif;
 	
 }
