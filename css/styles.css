@@ -4,7 +4,8 @@
 
 ul {
 	list-style-type: none;
-    align-content: center;
+    list-style-type: ;
+	font-family: 'Nunito', sans-serif;
 	
  	
 }
@@ -70,10 +71,10 @@ table {
 	border-bottom: 1px solid#CACACA;
 }
 h1{
-	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif"
+	font-family: 'Nunito', sans-serif;
 	
 }
 
 h2{
-	font-family: Helvetica Neue," sans-serif";
+	font-family: 'Muli', sans-serif;
 }
