@@ -4,22 +4,21 @@
 
 ul {
 	list-style-type: none;
-    list-style-type: ;
 	font-family: 'Nunito', sans-serif;
-	
- 	
+	display: block;
+ 	width: 700px;
+	margin: 0 auto;
 }
 li {
 	float: left;
+	display: inline-block;
 }
 
 a:link {
 	display: black;
 	padding: 14px 16px;
 	text-decoration: none;
-	color: black;
-	background-color: 
-	
+	color: black;	
 }
 
 a:visited {
@@ -72,9 +71,22 @@ table {
 }
 h1{
 	font-family: 'Nunito', sans-serif;
+	clear: both;
+	text-align: center;
 	
 }
 
 h2{
 	font-family: 'Muli', sans-serif;
+}
+legend {
+	color: rosybrown;
+	text-align: center;
+	font-weight: 200;
+	
+}
+fieldset {
+	
+	background-color: beige;
+	
 }
